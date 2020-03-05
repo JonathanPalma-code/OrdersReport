@@ -28,7 +28,7 @@ namespace OrderReport
 
             for (int i = 1; i <= nOrders; i++)
             {
-                Console.WriteLine($"Enter the details number {i}:");
+                Console.WriteLine($"Enter the details of the product number {i}:");
                 Console.Write("Product name: ");
                 string productName = Console.ReadLine();
                 Console.Write("Pruduct price: ");
@@ -40,15 +40,8 @@ namespace OrderReport
                 order.AddItem(orderItem);
             }
 
+            Console.WriteLine("\nORDER REPORT: ");
             Console.WriteLine(order);
-            foreach (OrderItem totalOrder in order.OrderItem)
-            {
-                Console.WriteLine($"{totalOrder.Product.Name}, " +
-                    $"{totalOrder.Price}, " +
-                    $"Quantity: {totalOrder.Quantity}, " +
-                    $"Subtotal: {totalOrder.SubTotal()}");
-            }
-            Console.WriteLine($"\nTotal Price: {order.Total()}");
         }
     }
 }

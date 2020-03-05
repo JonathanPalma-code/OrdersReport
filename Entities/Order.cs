@@ -45,10 +45,17 @@ namespace OrderReport.Entities
 
         public override string ToString()
         {
-            return "Order Summary:" +
-                $"\nOrder made at: {Moment}" +
-                $"\nOrder Status: {Status}" +
-                $"\nClient: {Client.Name} ({Client.BirthDate}) - {Client.Email}";
+            StringBuilder result = new StringBuilder();
+            result.AppendLine($"Ordered at: {Moment.ToString("dd/MM/yyyy HH:mm")}");
+            result.AppendLine($"Order Status: {Status}");
+            result.AppendLine($"Client: {Client}");
+            result.AppendLine("Items ordered: ");
+            foreach (OrderItem item in OrderItem)
+            {
+                result.AppendLine(item.ToString());
+            }
+            result.AppendLine($"Total Price: {Total().ToString("F2")}");
+            return result.ToString();
         }
     }
 }
