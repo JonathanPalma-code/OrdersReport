@@ -1,0 +1,11 @@
+C:\Users\jonat\Documents\C#\Projects\OrderReport\bin\Debug\netcoreapp3.1\OrderReport.exe
+C:\Users\jonat\Documents\C#\Projects\OrderReport\bin\Debug\netcoreapp3.1\OrderReport.deps.json
+C:\Users\jonat\Documents\C#\Projects\OrderReport\bin\Debug\netcoreapp3.1\OrderReport.runtimeconfig.json
+C:\Users\jonat\Documents\C#\Projects\OrderReport\bin\Debug\netcoreapp3.1\OrderReport.runtimeconfig.dev.json
+C:\Users\jonat\Documents\C#\Projects\OrderReport\bin\Debug\netcoreapp3.1\OrderReport.dll
+C:\Users\jonat\Documents\C#\Projects\OrderReport\bin\Debug\netcoreapp3.1\OrderReport.pdb
+C:\Users\jonat\Documents\C#\Projects\OrderReport\obj\Debug\netcoreapp3.1\OrderReport.csprojAssemblyReference.cache
+C:\Users\jonat\Documents\C#\Projects\OrderReport\obj\Debug\netcoreapp3.1\OrderReport.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\C#\Projects\OrderReport\obj\Debug\netcoreapp3.1\OrderReport.AssemblyInfo.cs
+C:\Users\jonat\Documents\C#\Projects\OrderReport\obj\Debug\netcoreapp3.1\OrderReport.dll
+C:\Users\jonat\Documents\C#\Projects\OrderReport\obj\Debug\netcoreapp3.1\OrderReport.pdb

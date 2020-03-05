@@ -42,5 +42,13 @@ namespace OrderReport.Entities
             }
             return result;
         }
+
+        public override string ToString()
+        {
+            return "Order Summary:" +
+                $"\nOrder made at: {Moment}" +
+                $"\nOrder Status: {Status}" +
+                $"\nClient: {Client.Name} ({Client.BirthDate}) - {Client.Email}";
+        }
     }
 }
