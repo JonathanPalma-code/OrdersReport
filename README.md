@@ -13,7 +13,7 @@ To use: You should be able to interact with the application by clicking on Order
 
 ## Demonstration
 
----
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/55409351/76019320-6b76f280-5f19-11ea-813c-8483ec98d2f9.gif)
 
 ## UML
 
