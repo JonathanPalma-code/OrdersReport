@@ -17,4 +17,4 @@ To use: You should be able to interact with the application by clicking on Order
 
 ## UML
 
----
+![OrderReportDiagram](https://user-images.githubusercontent.com/55409351/76022355-df67c980-5f1e-11ea-886f-8baee56b48c6.png)
