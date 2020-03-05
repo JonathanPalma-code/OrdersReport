@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OrderReport.Entities
+﻿namespace OrderReport.Entities
 {
     class OrderItem
     {
@@ -24,6 +20,11 @@ namespace OrderReport.Entities
         public double SubTotal()
         {
             return Quantity * Price;
+        }
+
+        public override string ToString()
+        {
+            return $"{Product.Name}, £{Price.ToString("F2")}, Quantity: {Quantity}, Subtotal: £{SubTotal().ToString("F2")}"; 
         }
     }
 }
